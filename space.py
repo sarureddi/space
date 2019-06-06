@@ -1,2 +1,4 @@
-a=input().split()
-print(len(a)-1)
+a=input("enter the value")
+for i in a:
+   if a[i]==(" "):
+       print("Space is at potion", i)
